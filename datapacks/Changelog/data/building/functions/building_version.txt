@@ -1,0 +1,16 @@
+
+Name: Portal Infinity
+
+Edition: JAVA EDITION
+
+Release: JE-1.17.1-Portal_Infinity:BUILDING:22.04.2022a_1 - 1.0.0
+
+Resource_pack: TRUE
+
+Data_pack: TRUE
+
+Github: https://github.com/Lorenzo0310200/Portal-Infinity
+
+Github_Tag: JE-4a
+
+Website:https://minecraft-map-building-versions.blogspot.com/

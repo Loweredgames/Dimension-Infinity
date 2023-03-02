@@ -1,0 +1,1 @@
+execute as @a[scores={device=1..}] run item replace entity @a weapon.offhand with minecraft:bow{display: {Name: '{"translate":"Robotic Arm Shoots Arrows","color":"dark_purple","bold":true}'}, HideFlags: 39, Unbreakable: 1b, Enchantments: [{id: "minecraft:infinity", lvl: 1s}]} 1
