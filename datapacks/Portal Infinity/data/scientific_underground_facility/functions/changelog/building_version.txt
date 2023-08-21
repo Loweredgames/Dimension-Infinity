@@ -9,8 +9,8 @@ Resource_pack: TRUE
 
 Data_pack: TRUE
 
-Github: https://github.com/Lorenzo0310200/Portal-Infinity
-
 Github_Tag: JE-4a
+
+Github: https://github.com/Lorenzo0310200/Portal-Infinity
 
 Website:https://minecraft-map-building-versions.blogspot.com/
