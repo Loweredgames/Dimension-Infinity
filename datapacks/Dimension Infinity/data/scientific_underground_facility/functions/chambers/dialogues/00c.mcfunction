@@ -9,6 +9,9 @@
 scoreboard objectives add DI_dialogues_00c1 dummy
 scoreboard objectives add DI_dialogues_00c2 dummy
 scoreboard objectives add DI_dialogues_00c3 dummy
+scoreboard objectives add DI_dialogues_00c4 dummy
+scoreboard objectives add DI_dialogues_00c5 dummy
+scoreboard objectives add DI_dialogues_00c6 dummy
 
 
 ##Dialogues 00c1
@@ -30,3 +33,18 @@ execute as @a[scores={DI_dialogues_00c2=1}] run tellraw @a {"text":"Fantastico, 
 ##Dialogues 00c3
 execute as @a[scores={DI_dialogues_00c3=1}] run tellraw @a {"text":"Le ricordo che alla fine di ogni camera c'è uno speciale dispositivo che elimina tutti i dispositivi che stava usando durante i test.","italic":true,"color":"light_purple"}
 execute as @a[scores={DI_dialogues_00c3=2}] run tellraw @a {"text":"Come prossimo test le verranno testate le proprie agilità, se per sbaglio comette un errore puo benissimo ricominciare e rifare il test.","italic":true,"color":"light_purple"}
+
+
+##Dialogues 00c4
+#execute as @a[scores={DI_dialogues_00c4=1}] run tellraw @a {"text":"Congratulazioni, se sente un malore improvviso si sdraia sul pavimento e cerca di respirare con regolarità, questo è un effeto raro che puo verificarsi al inizio della creazione dei soggetti.","italic":true,"color":"light_purple"} rifare
+
+
+##Dialogues 00c5
+execute as @a[scores={DI_dialogues_00c5=1}] run tellraw @a {"text":"Si sta comportando molto bene, le ricordo che durante i test ci potrebbero essere dei liquidi dannosi, in questo caso il liquido non crea danni e puo essere uttilizato per i suoi scopi.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c5=2}] run tellraw @a {"text":"Le ricordo anche che le camere sono dotate di sistemi di sopravvivenza e quindi è quasi impossibile muorire immobili.","italic":true,"color":"light_purple"}
+
+
+##Dialogues 00c6
+execute as @a[scores={DI_dialogues_00c6=1}] run tellraw @a {"text":"In questa camera le verà mostrato un dispositivo di teletrasporto dimensionale, puo viaggiare tra le dimensioni senza pericoli.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=2}] run tellraw @a {"text":"La dimensione in cui viaggerà si chiama 'Nether', ed è una dimensione infernale ed è stata ripulita dai 'Mob' grazie al dispositivo portale.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=3}] run tellraw @a {"text":"Benvenuto nel Nether, come vede questa dimensione è simile a l'altra ma solo con sistemi piu avanzati e vegetazione infernale, puo spostarsi liberamente fra le due dimensioni senza problemi basta che trova un altro dispositivo portale.","italic":true,"color":"light_purple"}

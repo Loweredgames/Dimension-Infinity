@@ -13,6 +13,10 @@ execute as @a[scores={DI_intro_00c1=..1}] run scoreboard objectives setdisplay s
 scoreboard players add @a DI_intro_00c1 1
 scoreboard players add @a DI_intro_00c2 1
 scoreboard players add @a DI_intro_00c3 1
+scoreboard players add @a DI_intro_00c4 1
+scoreboard players add @a DI_intro_00c5 1
+scoreboard players add @a DI_intro_00c6 1
+scoreboard players add @a DI_intro_00c6a 1
 
 
 ##Intro Test 00c1
@@ -59,18 +63,47 @@ execute as @a[scores={DI_intro_00c1=3000..}] run scoreboard objectives remove DI
 
 
 ##Intro Test 00c2
-execute as @a[scores={DI_intro_00c2=..1}] run setblock -12 177 13 minecraft:air
-execute as @a[scores={DI_intro_00c2=..1}] run kill @e[type=minecraft:item]
-execute as @a[scores={DI_intro_00c2=..1}] run fill 2 177 7 0 180 7 minecraft:black_wool
+execute as @a[scores={DI_intro_00c2=1..3}] run setblock -12 177 13 minecraft:air
+execute as @a[scores={DI_intro_00c2=1..3}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c2=1..3}] run fill 2 177 7 0 180 7 minecraft:black_wool
 execute as @a[scores={DI_intro_00c2=2}] run scoreboard players set @a DI_dialogues_00c2 1
 execute as @a[scores={DI_intro_00c2=3}] run scoreboard players set @a DI_dialogues_00c2 -1
 
 
 ##Intro Test 00c3
-execute as @a[scores={DI_intro_00c3=..1}] run setblock -28 184 10 minecraft:air
-execute as @a[scores={DI_intro_00c3=..1}] run scoreboard objectives remove DI_intro_00c2
-execute as @a[scores={DI_intro_00c3=..1}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c3=1..101}] run setblock -28 184 10 minecraft:air
+execute as @a[scores={DI_intro_00c3=1..101}] run scoreboard objectives remove DI_intro_00c2
+execute as @a[scores={DI_intro_00c3=1..101}] run kill @e[type=minecraft:item]
 execute as @a[scores={DI_intro_00c3=2}] run scoreboard players set @a DI_dialogues_00c3 1
 execute as @a[scores={DI_intro_00c3=3}] run scoreboard players set @a DI_dialogues_00c3 -1
 execute as @a[scores={DI_intro_00c3=100}] run scoreboard players set @a DI_dialogues_00c3 2
-execute as @a[scores={DI_intro_00c3=101}] run scoreboard players set @a DI_dialogues_00c3 3
+execute as @a[scores={DI_intro_00c3=101}] run scoreboard players set @a DI_dialogues_00c3 -1
+
+
+##Intro Test 00c4
+execute as @a[scores={DI_intro_00c4=1..3}] run scoreboard objectives remove DI_intro_00c3
+execute as @a[scores={DI_intro_00c4=2}] run scoreboard players set @a DI_dialogues_00c4 1
+execute as @a[scores={DI_intro_00c4=3}] run scoreboard players set @a DI_dialogues_00c4 -1
+
+
+##Intro Test 00c5
+execute as @a[scores={DI_intro_00c5=1..101}] run scoreboard objectives remove DI_intro_00c4
+execute as @a[scores={DI_intro_00c5=1..101}] run setblock -81 186 16 minecraft:air
+execute as @a[scores={DI_intro_00c5=1..101}] run setblock -87 181 2 minecraft:air
+execute as @a[scores={DI_intro_00c5=1..101}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c5=5}] run scoreboard players set @a DI_dialogues_00c5 1
+execute as @a[scores={DI_intro_00c5=6}] run scoreboard players set @a DI_dialogues_00c5 -1
+execute as @a[scores={DI_intro_00c5=100}] run scoreboard players set @a DI_dialogues_00c5 2
+execute as @a[scores={DI_intro_00c5=101}] run scoreboard players set @a DI_dialogues_00c5 -1
+
+
+##Intro Test 00c6
+execute as @a[scores={DI_intro_00c6=1..51}] run scoreboard objectives remove DI_intro_00c5
+execute as @a[scores={DI_intro_00c6=1..51}] run setblock -83 188 -10 minecraft:air
+execute as @a[scores={DI_intro_00c6=1..51}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c6=2}] run scoreboard players set @a DI_dialogues_00c6 1
+execute as @a[scores={DI_intro_00c6=3}] run scoreboard players set @a DI_dialogues_00c6 -1
+execute as @a[scores={DI_intro_00c6=50}] run scoreboard players set @a DI_dialogues_00c6 2
+execute as @a[scores={DI_intro_00c6=51}] run scoreboard players set @a DI_dialogues_00c6 -1
+execute as @a[scores={DI_intro_00c6a=1}] run scoreboard players set @a DI_dialogues_00c6 3
+execute as @a[scores={DI_intro_00c6a=2}] run scoreboard players set @a DI_dialogues_00c6 -1
