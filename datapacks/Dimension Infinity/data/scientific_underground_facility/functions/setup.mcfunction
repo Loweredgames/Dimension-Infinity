@@ -54,7 +54,6 @@ execute as @a run item replace entity @a hotbar.0 with minecraft:flint{CanDestro
 
 
 ##Scoreboards
-scoreboard players add @a DI_intro_00c1 1
 scoreboard players add @a DI_loading 1
 #scoreboard objectives add device dummy (da fare)
 #scoreboard objectives add teleport minecraft.used:minecraft.potion (da fare)
@@ -75,9 +74,9 @@ function scientific_underground_facility:items_clear
 function scientific_underground_facility:device
 
 
+##Functions Dialogues
+function scientific_underground_facility:chambers/dialogues/00c
+
+
 ##Functions Chambers
 function scientific_underground_facility:chambers/intro/start_test
-
-
-##Functions Dialogues
-function scientific_underground_facility:chambers/dialogues/00c1
