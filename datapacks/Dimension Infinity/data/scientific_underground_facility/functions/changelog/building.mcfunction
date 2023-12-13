@@ -14,7 +14,7 @@ bossbar set building name {"text":"JE-1.20.4-Dimension_Infinity:BUILDING:12.12.2
 
 #Map Progress
 
-bossbar set minecraft:building value 6
+bossbar set minecraft:building value 10
 
 #Warning Message
 
