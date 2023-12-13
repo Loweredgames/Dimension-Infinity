@@ -5,7 +5,7 @@ Edition: JAVA EDITION
 
 Release: JE-1.20.4-Dimension_Infinity:BUILDING:12.12.2023a - 1.0.0 [Release Update]
 
-Nightly Release: JE-1.20.4-NIGHTLY_BUILDING:12.12.2023.41254a
+Nightly Release: JE-1.20.4-NIGHTLY_BUILDING:12.12.2023.51254a
 
 Resource_pack: TRUE
 

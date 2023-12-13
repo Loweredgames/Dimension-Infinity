@@ -1,6 +1,0 @@
-intro (finire)
-Test 1 (da fare, dispositivo arco)
-Test 2 (da fare)
-Test 3 (da fare)
-Test 4 (da fare)
-Test 5 (da fare)
