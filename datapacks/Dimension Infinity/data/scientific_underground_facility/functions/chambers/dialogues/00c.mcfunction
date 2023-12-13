@@ -23,7 +23,7 @@ execute as @a[scores={DI_dialogues_00c1=5}] run tellraw @a {"text":"Prima di ini
 execute as @a[scores={DI_dialogues_00c1=6}] run tellraw @a {"text":"Per la propria sicurezza e la sicurezza degli altri, si prega di astenersi a molti fallimenti e di stare allerta durante le attività del centro.","italic":true,"color":"light_purple"}
 execute as @a[scores={DI_dialogues_00c1=7}] run tellraw @a {"text":"Stia immobile, la capsula crea soggetti del centro di arricchimento si aprirà tra.......","italic":true,"color":"light_purple"}
 execute as @a[scores={DI_dialogues_00c1=8}] run tellraw @a {"text":"Le ricordo che durante le camere dei test, verra monitorata e guidata.","italic":true,"color":"light_purple"}
-execute as @a[scores={DI_dialogues_00c1=9}] run tellraw @a {"text":"...","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c1=9}] run tellraw @a {"text":"Le ricordo che i test che farà servono per testare tecnologie sperimentali, puo continuare nella prossima stanza.","italic":true,"color":"light_purple"}
 
 
 ##Dialogues 00c2
@@ -45,6 +45,6 @@ execute as @a[scores={DI_dialogues_00c5=2}] run tellraw @a {"text":"Le ricordo a
 
 
 ##Dialogues 00c6
-execute as @a[scores={DI_dialogues_00c6=1}] run tellraw @a {"text":"In questa camera le verà mostrato un dispositivo di teletrasporto dimensionale, puo viaggiare tra le dimensioni senza pericoli.","italic":true,"color":"light_purple"}
-execute as @a[scores={DI_dialogues_00c6=2}] run tellraw @a {"text":"La dimensione in cui viaggerà si chiama 'Nether', ed è una dimensione infernale ed è stata ripulita dai 'Mob' grazie al dispositivo portale.","italic":true,"color":"light_purple"}
-execute as @a[scores={DI_dialogues_00c6=3}] run tellraw @a {"text":"Benvenuto nel Nether, come vede questa dimensione è simile a l'altra ma solo con sistemi piu avanzati e vegetazione infernale, puo spostarsi liberamente fra le due dimensioni senza problemi basta che trova un altro dispositivo portale.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=1}] run tellraw @a {"text":"In questa camera le verrà mostrata un dispositivo di teletrasporto dimensionale, puo viaggiare tra le dimensioni senza pericoli.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=2}] run tellraw @a {"text":"La dimensione in cui viaggerà si chiama 'Nether', ed è una dimensione infernale ed è stata ripulita dai 'Mob' grazie al dispositivo cupola-parete.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=3}] run tellraw @a {"text":"Benvenuto nel Nether, come vede questa dimensione è simile all'altra ma solo con vegetazione infernale, puo spostarsi liberamente fra le due dimensioni senza problemi basta che trova un altro dispositivo portale. il dispostitivo cupola-parete invece, serve per mantenere i soggetti dei test nel test area, senza subire seri problemi tra le dimensioni.","italic":true,"color":"light_purple"}

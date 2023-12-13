@@ -58,7 +58,7 @@ execute as @a[scores={DI_intro_00c1=2500}] run setblock 11 185 5 minecraft:air
 execute as @a[scores={DI_intro_00c1=2500}] run scoreboard players set @a DI_dialogues_00c1 9
 execute as @a[scores={DI_intro_00c1=2501}] run scoreboard players set @a DI_dialogues_00c1 -1
 execute as @a[scores={DI_intro_00c1=2505}] run fill 2 177 7 0 180 7 minecraft:white_wool
-execute as @a[scores={DI_intro_00c1=2510}] run setblock -12 177 13 minecraft:redstone_block
+execute as @a[scores={DI_intro_00c1=2710}] run setblock -12 177 13 minecraft:redstone_block
 execute as @a[scores={DI_intro_00c1=3000..}] run scoreboard objectives remove DI_intro_00c1
 
 
