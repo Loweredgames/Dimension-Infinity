@@ -1,4 +1,4 @@
-### (Nome Mappa)
+### Dimension Infinity
 
 (Logo)
 
@@ -8,10 +8,10 @@ Descrizione breve
 
 # Feature: (le feature della mappa)
 
-#Versions: (le versioni di Minecraft supportate)
+#Versions: 1.20.4
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
-(mettere Github LICENZA)
+https://github.com/Loweredgames/Dimension-Infinity/blob/main/LICENSE
 
 NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO READING THE COPYRIGHT (C): 
 https://www.minecraft.net/en-us/terms
