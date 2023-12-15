@@ -12,6 +12,7 @@ scoreboard objectives add DI_dialogues_00c3 dummy
 scoreboard objectives add DI_dialogues_00c4 dummy
 scoreboard objectives add DI_dialogues_00c5 dummy
 scoreboard objectives add DI_dialogues_00c6 dummy
+scoreboard objectives add DI_dialogues_00c7 dummy
 
 
 ##Dialogues 00c1
@@ -45,6 +46,11 @@ execute as @a[scores={DI_dialogues_00c5=2}] run tellraw @a {"text":"Le ricordo a
 
 
 ##Dialogues 00c6
-execute as @a[scores={DI_dialogues_00c6=1}] run tellraw @a {"text":"In questa camera le verrà mostrata un dispositivo di teletrasporto dimensionale, puo viaggiare tra le dimensioni senza pericoli.","italic":true,"color":"light_purple"}
-execute as @a[scores={DI_dialogues_00c6=2}] run tellraw @a {"text":"La dimensione in cui viaggerà si chiama 'Nether', ed è una dimensione infernale ed è stata ripulita dai 'Mob' grazie al dispositivo cupola-parete.","italic":true,"color":"light_purple"}
-execute as @a[scores={DI_dialogues_00c6=3}] run tellraw @a {"text":"Benvenuto nel Nether, come vede questa dimensione è simile all'altra ma solo con vegetazione infernale, puo spostarsi liberamente fra le due dimensioni senza problemi basta che trova un altro dispositivo portale. il dispostitivo cupola-parete invece, serve per mantenere i soggetti dei test nel test area, senza subire seri problemi tra le dimensioni.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=1}] run tellraw @a {"text":"In questa camera le verrà mostrata un dispositivo di teletrasporto dimensionale, puo viaggiare tra le due dimensioni senza pericoli e con sicurezza.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=2}] run tellraw @a {"text":"La dimensione in cui viaggerà si chiama: 'Nether', ed è una dimensione infernale, è stata ripulita dai 'Mob' ostili, grazie al dispositivo cupola-parete.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=3}] run tellraw @a {"text":"Benvenuto nel Nether, come vede questa dimensione è simile all'altra ma solo con vegetazione infernale, puo spostarsi liberamente fra le due dimensioni senza problemi basta che trova un altro dispositivo portale. il dispostitivo cupola-parete invece, serve per mantenere i soggetti dei test nel test area detto stanza di delimitazióne, senza subire seri problemi tra le dimensioni. puo andare oltre il muro che era bloccatto un attimo fa.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c6=4}] run tellraw @a {"text":"Ben ritornato al centro di arricchimento, questi portali sono stati connessi e poi modificati alla dimensione infernale, come vede tutti i dispositivi sono uguali a quelli del centro, l'unica cosa che cambia e la stanza in se. come vede puo vedere oltre la stanza di delimitazióne, della vegetazione o strutture infernali. questo e causato dalla dimensione infernale e dalla limitazione della stanza di delimitazióne.","italic":true,"color":"light_purple"}
+
+
+##Dialogues 00c7
+execute as @a[scores={DI_dialogues_00c7=1}] run tellraw @a {"text":"Nel prossimo test usera le due dimensione per completare le varie stanze del test. provi ha usare le dimensioni a suo vantaggio.","italic":true,"color":"light_purple"}

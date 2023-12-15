@@ -6,7 +6,7 @@
 
 
 ##Debug Intro Test 00c1
-execute as @a[scores={DI_intro_00c1=..1}] run scoreboard objectives setdisplay sidebar DI_intro_00c1
+#execute as @a[scores={DI_intro_00c1=..1}] run scoreboard objectives setdisplay sidebar DI_intro_00c1
 
 
 ##Scoreboards Test Setup
@@ -17,6 +17,8 @@ scoreboard players add @a DI_intro_00c4 1
 scoreboard players add @a DI_intro_00c5 1
 scoreboard players add @a DI_intro_00c6 1
 scoreboard players add @a DI_intro_00c6a 1
+scoreboard players add @a DI_intro_00c6b 1
+scoreboard players add @a DI_intro_00c7 1
 
 
 ##Intro Test 00c1
@@ -116,3 +118,14 @@ execute as @a[scores={DI_intro_00c6=50}] run scoreboard players set @a DI_dialog
 execute as @a[scores={DI_intro_00c6=51}] run scoreboard players set @a DI_dialogues_00c6 -1
 execute as @a[scores={DI_intro_00c6a=1}] run scoreboard players set @a DI_dialogues_00c6 3
 execute as @a[scores={DI_intro_00c6a=2}] run scoreboard players set @a DI_dialogues_00c6 -1
+execute as @a[scores={DI_intro_00c6b=1}] run scoreboard players set @a DI_dialogues_00c6 4
+execute as @a[scores={DI_intro_00c6b=2}] run scoreboard players set @a DI_dialogues_00c6 -1
+execute as @a[scores={DI_intro_00c6b=3..}] run scoreboard objectives remove DI_intro_00c6
+execute as @a[scores={DI_intro_00c6b=3..}] run scoreboard objectives remove DI_intro_00c6a
+execute as @a[scores={DI_intro_00c6b=100..}] run scoreboard objectives remove DI_intro_00c6b
+
+
+##Intro Test 00c7
+execute as @a[scores={DI_intro_00c7=1..3}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c7=2}] run scoreboard players set @a DI_dialogues_00c7 1
+execute as @a[scores={DI_intro_00c7=3}] run scoreboard players set @a DI_dialogues_00c7 -1
