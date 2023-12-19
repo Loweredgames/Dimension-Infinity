@@ -13,6 +13,7 @@ scoreboard objectives add DI_dialogues_00c4 dummy
 scoreboard objectives add DI_dialogues_00c5 dummy
 scoreboard objectives add DI_dialogues_00c6 dummy
 scoreboard objectives add DI_dialogues_00c7 dummy
+scoreboard objectives add DI_dialogues_00c8 dummy
 
 
 ##Dialogues 00c1
@@ -53,4 +54,9 @@ execute as @a[scores={DI_dialogues_00c6=4}] run tellraw @a {"text":"Ben ritornat
 
 
 ##Dialogues 00c7
-execute as @a[scores={DI_dialogues_00c7=1}] run tellraw @a {"text":"Nel prossimo test usera le due dimensione per completare le varie stanze del test. provi ha usare le dimensioni a suo vantaggio.","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c7=1}] run tellraw @a {"text":"Nel prossimo test usera le due dimensione per completare le varie stanze del test. provi ha usare le dimensioni a suo vantaggio. nella dimensione infernale i dispositivi saranno disabilitati per una questione dimensionale.","italic":true,"color":"light_purple"}
+
+
+##Dialogues 00c8
+execute as @a[scores={DI_dialogues_00c8=1}] run tellraw @a {"text":"Congratulazioni e riuscita ha superare tutti i test per il suo funzionamento. adesso che è in uno stato funzionante al 100%, puo fare il test finale per i test succesivi. il test finale avrà inizio fra...","italic":true,"color":"light_purple"}
+execute as @a[scores={DI_dialogues_00c8=2}] run tellraw @a {"text":"3, 2, 1.....","italic":true,"color":"light_purple"}

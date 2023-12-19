@@ -19,6 +19,7 @@ scoreboard players add @a DI_intro_00c6 1
 scoreboard players add @a DI_intro_00c6a 1
 scoreboard players add @a DI_intro_00c6b 1
 scoreboard players add @a DI_intro_00c7 1
+scoreboard players add @a DI_intro_00c8 1
 
 
 ##Intro Test 00c1
@@ -129,3 +130,15 @@ execute as @a[scores={DI_intro_00c6b=100..}] run scoreboard objectives remove DI
 execute as @a[scores={DI_intro_00c7=1..3}] run kill @e[type=minecraft:item]
 execute as @a[scores={DI_intro_00c7=2}] run scoreboard players set @a DI_dialogues_00c7 1
 execute as @a[scores={DI_intro_00c7=3}] run scoreboard players set @a DI_dialogues_00c7 -1
+
+
+##Intro Test 00c8
+execute as @a[scores={DI_intro_00c8=1..105}] run scoreboard objectives remove DI_intro_00c7
+execute as @a[scores={DI_intro_00c8=1..105}] run setblock -69 187 -60 minecraft:air
+execute as @a[scores={DI_intro_00c8=1..105}] run kill @e[type=minecraft:item]
+execute as @a[scores={DI_intro_00c8=1}] run scoreboard players set @a DI_dialogues_00c8 1
+execute as @a[scores={DI_intro_00c8=2}] run scoreboard players set @a DI_dialogues_00c8 -1
+execute as @a[scores={DI_intro_00c8=300}] run setblock -36 178 -56 minecraft:redstone_block
+execute as @a[scores={DI_intro_00c8=305}] run scoreboard players set @a DI_dialogues_00c8 2
+execute as @a[scores={DI_intro_00c8=306}] run scoreboard players set @a DI_dialogues_00c8 -1
+execute as @a[scores={DI_intro_00c8=310..}] run scoreboard objectives remove DI_intro_00c8
