@@ -8,7 +8,7 @@ Descrizione breve
 
 # Feature: (le feature della mappa)
 
-#Versions: 1.20.4
+#Versions: 1.21.11
 
 READ THE LICENZE BEFORE DOWNLOADING THE DATAPACK:
 https://github.com/Loweredgames/Dimension-Infinity/blob/main/LICENSE

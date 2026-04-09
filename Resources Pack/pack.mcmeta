@@ -1,7 +1,7 @@
 {
-   "pack": {
-       "pack_format": 22,
-       "supported_formats": {"min_inclusive": 22, "max_inclusive": 27},
-       "description": "Dimension Infinity By Lorenzo Giannini"
-   }
+  "pack": {
+      "min_format": [75, 0],
+      "max_format": [75, 0],
+    "description": "Dimension Infinity By Lorenzo Giannini"
+  }
 }

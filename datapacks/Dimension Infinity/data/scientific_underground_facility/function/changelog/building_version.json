@@ -1,0 +1,21 @@
+{
+"Name": "Dimension Infinity",
+
+"Edition": "JAVA EDITION",
+
+"Release Versions": "1.0.0 [Release Update]",
+
+"Release Building": "JE-1.21.11-Dimension_Infinity:BUILDING:12.12.2023a",
+
+"Nightly Building": "JE-1.21.11-Dimension_Infinity:NIGHTLY_BUILDING:09.04.2026.11603a_[main]",
+
+"Resource_pack": "TRUE",
+
+"Data_pack": "TRUE",
+
+"Github_tag": "1.21.11_JE-0a",
+
+"Github": "https://github.com/Loweredgames/Dimension-Infinity",
+
+"Website":"https://loweredgames.github.io/"
+}

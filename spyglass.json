@@ -1,0 +1,18 @@
+{
+	"env": {
+		"gameVersion": "1.21.11",
+		"permissionLevel": 2
+	},
+	"format": {
+		"eol": "auto",
+		"nbtCompoundTrailingComma": false,
+		"nbtDoubleOmitSuffix": false,
+		"nbtListTrailingComma": false,
+		"selectorTrailingComma": false,
+		"timeOmitTickUnit": false
+	},
+	"lint": {"undeclaredSymbol": [
+			null
+		]
+	}
+}
